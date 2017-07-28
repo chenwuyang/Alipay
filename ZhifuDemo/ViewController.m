@@ -23,7 +23,7 @@
     [super viewDidLoad];
     UIButton *payButton = [UIButton buttonWithType:UIButtonTypeCustom];
     payButton.frame = CGRectMake(100, 200, 100, 40);
-    payButton.backgroundColor = [UIColor redColor];
+    payButton.backgroundColor = [UIColor yellowColor];
     [payButton addTarget:self action:@selector(payButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:payButton];
 
